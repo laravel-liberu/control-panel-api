@@ -1,8 +1,8 @@
 {
-    "name": "laravel-enso/control-panel-api",
+    "name": "cgdsoftware/control-panel-api",
     "description": "Control Panel API for Laravel Enso",
     "keywords": [
-        "laravel-enso",
+        "cgdsoftware",
         "controlpanel",
         "api",
         "laravel"
@@ -13,24 +13,24 @@
         {
             "name": "Mihai Ocneanu",
             "email": "mihai.ocneanu@gmail.com",
-            "homepage": "https://laravel-enso.com",
+            "homepage": "https://cgdsoftware.com",
             "role": "Developer"
         },
         {
             "name": "Adrian Ocneanu",
             "email": "aocneanu@gmail.com",
-            "homepage": "https://laravel-enso.com",
+            "homepage": "https://cgdsoftware.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "laravel-enso/api": "^1.2",
-        "laravel-enso/core": "^8.0",
-        "laravel-enso/enums": "^2.0",
-        "laravel-enso/helpers": "^2.0",
-        "laravel-enso/logs": "^4.0",
-        "laravel-enso/action-logger": "^3.1",
-        "laravel-enso/control-panel-common": "^2.0"
+        "cgdsoftware/api": "^1.2",
+        "cgdsoftware/core": "^8.0",
+        "cgdsoftware/enums": "^2.0",
+        "cgdsoftware/helpers": "^2.0",
+        "cgdsoftware/logs": "^4.0",
+        "cgdsoftware/action-logger": "^3.1",
+        "cgdsoftware/control-panel-common": "^2.0"
     },
     "autoload": {
         "psr-4": {
