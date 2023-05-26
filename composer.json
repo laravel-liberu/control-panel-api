@@ -29,7 +29,6 @@
         "laravel-liberu/enums": "^2.0",
         "laravel-liberu/helpers": "^2.0",
         "laravel-liberu/logs": "^4.0",
-        "laravel-liberu/action-logger": "^3.1",
         "laravel-liberu/control-panel-common": "^2.0"
     },
     "autoload": {
