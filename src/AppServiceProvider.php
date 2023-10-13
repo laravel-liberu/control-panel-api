@@ -34,7 +34,7 @@ class AppServiceProvider extends ServiceProvider
         $this->commands(Monitor::class);
 
         $this->app->booted(fn () => $this->app->make(Schedule::class)
-            ->command('enso:control-panel-api:monitor')->everyFiveMinutes());
+            ->command('liberu:control-panel-api:monitor')->everyFiveMinutes());
 
         return $this;
     }
@@ -43,7 +43,7 @@ class AppServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__.'/../database/seeders' => database_path('seeders'),
-        ], ['control-panel-api-seeder', 'enso-seeders']);
+        ], ['control-panel-api-seeder', 'liberu-seeders']);
 
         return $this;
     }

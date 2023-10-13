@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
+namespace LaravelLiberu\ControlPanelApi\Services\Sliberurs;
 
 use LaravelLiberu\ControlPanelApi\Services\Helpers\Cpu;
 
-class Load extends Sensor
+class Load extends Sliberur
 {
     public function value(): mixed
     {

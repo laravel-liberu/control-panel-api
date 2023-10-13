@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
+namespace LaravelLiberu\ControlPanelApi\Services\Sliberurs;
 
 use Illuminate\Support\Facades\File;
 use LaravelLiberu\Helpers\Services\DiskSize;
 
-class LogSize extends Sensor
+class LogSize extends Sliberur
 {
     public function value(): mixed
     {

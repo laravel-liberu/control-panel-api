@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
+namespace LaravelLiberu\ControlPanelApi\Services\Sliberurs;
 
 use Illuminate\Support\Collection;
 use LaravelLiberu\Helpers\Services\Decimals;
 use LaravelLiberu\Helpers\Services\DiskSize;
 
-class Memory extends Sensor
+class Memory extends Sliberur
 {
     private Collection $memory;
 

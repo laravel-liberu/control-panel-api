@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
+namespace LaravelLiberu\ControlPanelApi\Services\Sliberurs;
 
-class Web extends Sensor
+class Web extends Sliberur
 {
     public function value(): mixed
     {

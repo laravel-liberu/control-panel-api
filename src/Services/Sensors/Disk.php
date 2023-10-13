@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
+namespace LaravelLiberu\ControlPanelApi\Services\Sliberurs;
 
 use LaravelLiberu\Helpers\Services\DiskSize;
 
-class Disk extends Sensor
+class Disk extends Sliberur
 {
     public function value(): mixed
     {

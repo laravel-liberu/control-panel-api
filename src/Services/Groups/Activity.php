@@ -2,9 +2,9 @@
 
 namespace LaravelLiberu\ControlPanelApi\Services\Groups;
 
-use LaravelLiberu\ControlPanelApi\Services\Sensors\Logins;
-use LaravelLiberu\ControlPanelApi\Services\Sensors\Requests;
-use LaravelLiberu\ControlPanelApi\Services\Sensors\Sessions;
+use LaravelLiberu\ControlPanelApi\Services\Sliberurs\Logins;
+use LaravelLiberu\ControlPanelApi\Services\Sliberurs\Requests;
+use LaravelLiberu\ControlPanelApi\Services\Sliberurs\Sessions;
 use LaravelLiberu\ControlPanelCommon\Contracts\Group;
 use LaravelLiberu\ControlPanelCommon\Services\IdProvider;
 
@@ -15,7 +15,7 @@ class Activity extends IdProvider implements Group
         return 'Activity';
     }
 
-    public function sensors(): array
+    public function sliberurs(): array
     {
         return [
             Logins::class, Requests::class, Sessions::class,

@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
+namespace LaravelLiberu\ControlPanelApi\Services\Sliberurs;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
 use Laravel\Horizon\Contracts\MasterSupervisorRepository;
 
-class Horizon extends Sensor
+class Horizon extends Sliberur
 {
     public function value(): mixed
     {

@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
+namespace LaravelLiberu\ControlPanelApi\Services\Sliberurs;
 
 use LaravelLiberu\Users\Models\User;
 
-class NewUsers extends Sensor
+class NewUsers extends Sliberur
 {
     public function value(): mixed
     {

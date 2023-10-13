@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
+namespace LaravelLiberu\ControlPanelApi\Services\Sliberurs;
 
 use LaravelLiberu\Core\Services\Version as Service;
 use LaravelLiberu\Helpers\Services\Obj;
 
-class Version extends Sensor
+class Version extends Sliberur
 {
     private Service $version;
 
@@ -28,12 +28,12 @@ class Version extends Sensor
 
     public function tooltip(): string
     {
-        return 'enso version';
+        return 'liberu version';
     }
 
     public function icon(): array
     {
-        return ['fab', 'enso'];
+        return ['fab', 'liberu'];
     }
 
     public function order(): int

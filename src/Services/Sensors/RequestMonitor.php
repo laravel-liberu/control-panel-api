@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
+namespace LaravelLiberu\ControlPanelApi\Services\Sliberurs;
 
 use Illuminate\Support\Facades\Cache;
 use LaravelLiberu\Helpers\Services\Decimals;
 use LaravelLiberu\Helpers\Services\Obj;
 
-class RequestMonitor extends Sensor
+class RequestMonitor extends Sliberur
 {
     public const RequestMonitorKey = 'control-panel-api:request-monitor';
 

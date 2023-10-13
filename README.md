@@ -1,11 +1,11 @@
 <!--h-->
 # Control Panel API
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3200ceba8aea4a31ac1dfe826328bcb1)](https://www.codacy.com/app/laravel-enso/control-panel-api?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/control-panel-api&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3200ceba8aea4a31ac1dfe826328bcb1)](https://www.codacy.com/app/laravel-liberu/control-panel-api?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/control-panel-api&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/88979520/shield?branch=master)](https://github.styleci.io/repos/88979520)
-[![License](https://poser.pugx.org/laravel-enso/control-panel-api/license)](https://https://packagist.org/packages/laravel-enso/control-panel-api)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/control-panel-api/downloads)](https://packagist.org/packages/laravel-enso/control-panel-api)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/control-panel-api/version)](https://packagist.org/packages/laravel-enso/control-panel-api)
+[![License](https://poser.pugx.org/laravel-liberu/control-panel-api/license)](https://https://packagist.org/packages/laravel-liberu/control-panel-api)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/control-panel-api/downloads)](https://packagist.org/packages/laravel-liberu/control-panel-api)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/control-panel-api/version)](https://packagist.org/packages/laravel-liberu/control-panel-api)
 <!--/h-->
 
 The package depends on the Laravel/Passport official package.
@@ -13,7 +13,7 @@ The package depends on the Laravel/Passport official package.
 ### Installation
 
 Follow the next steps for completing the [Passport package install](https://laravel.com/docs/5.4/passport#installation):
-* run `composer require laravel-enso/ControlPanelApi`
+* run `composer require laravel-liberu/ControlPanelApi`
 * run `php artisan migrate`
 * run `php artisan passport:install`
 * set `'driver' => 'passport',` inside `config/auth.php` for the api guard.

@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
+namespace LaravelLiberu\ControlPanelApi\Services\Sliberurs;
 
 use Carbon\Carbon;
 
-class Time extends Sensor
+class Time extends Sliberur
 {
     public function value(): mixed
     {

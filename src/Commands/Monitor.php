@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Cache;
 
 class Monitor extends Command
 {
-    protected $signature = 'enso:control-panel-api:monitor';
+    protected $signature = 'liberu:control-panel-api:monitor';
 
     protected $description = 'Monitor Schedule';
 

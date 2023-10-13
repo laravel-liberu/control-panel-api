@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
+namespace LaravelLiberu\ControlPanelApi\Services\Sliberurs;
 
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\DB;
 
-class Sessions extends Sensor
+class Sessions extends Sliberur
 {
     public function value(): mixed
     {
