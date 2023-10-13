@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelLiberu\ControlPanelApi\Services\Sliberurs;
+namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Query\Builder as DBBuilder;

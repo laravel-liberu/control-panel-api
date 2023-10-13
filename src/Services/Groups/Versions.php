@@ -2,10 +2,10 @@
 
 namespace LaravelLiberu\ControlPanelApi\Services\Groups;
 
-use LaravelLiberu\ControlPanelApi\Services\Sliberurs\Database;
-use LaravelLiberu\ControlPanelApi\Services\Sliberurs\OperatingSystem;
-use LaravelLiberu\ControlPanelApi\Services\Sliberurs\PhpVersion;
-use LaravelLiberu\ControlPanelApi\Services\Sliberurs\Version;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\Database;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\OperatingSystem;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\PhpVersion;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\Version;
 use LaravelLiberu\ControlPanelCommon\Contracts\Group;
 use LaravelLiberu\ControlPanelCommon\Services\IdProvider;
 

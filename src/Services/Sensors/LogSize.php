@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelLiberu\ControlPanelApi\Services\Sliberurs;
+namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
 
 use Illuminate\Support\Facades\File;
 use LaravelLiberu\Helpers\Services\DiskSize;

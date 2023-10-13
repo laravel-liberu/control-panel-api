@@ -2,8 +2,8 @@
 
 namespace LaravelLiberu\ControlPanelApi\Services\Groups;
 
-use LaravelLiberu\ControlPanelApi\Services\Sliberurs\FailedJobs;
-use LaravelLiberu\ControlPanelApi\Services\Sliberurs\PendingJobs;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\FailedJobs;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\PendingJobs;
 use LaravelLiberu\ControlPanelCommon\Contracts\Group;
 use LaravelLiberu\ControlPanelCommon\Services\IdProvider;
 

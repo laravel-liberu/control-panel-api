@@ -4,7 +4,7 @@ namespace LaravelLiberu\ControlPanelApi\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Cache;
-use LaravelLiberu\ControlPanelApi\Services\Sliberurs\RequestMonitor as Sliberur;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\RequestMonitor as Sliberur;
 
 class RequestMonitor
 {

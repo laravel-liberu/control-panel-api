@@ -2,9 +2,9 @@
 
 namespace LaravelLiberu\ControlPanelApi\Services\Groups;
 
-use LaravelLiberu\ControlPanelApi\Services\Sliberurs\Horizon;
-use LaravelLiberu\ControlPanelApi\Services\Sliberurs\Scheduler;
-use LaravelLiberu\ControlPanelApi\Services\Sliberurs\Web;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\Horizon;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\Scheduler;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\Web;
 use LaravelLiberu\ControlPanelCommon\Contracts\Group;
 use LaravelLiberu\ControlPanelCommon\Services\IdProvider;
 

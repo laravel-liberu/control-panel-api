@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelLiberu\ControlPanelApi\Services\Sliberurs;
+namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
 
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Config;

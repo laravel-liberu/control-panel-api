@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelLiberu\ControlPanelApi\Services\Sliberurs;
+namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
 
 use LaravelLiberu\Core\Services\Version as Service;
 use LaravelLiberu\Helpers\Services\Obj;

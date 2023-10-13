@@ -2,9 +2,9 @@
 
 namespace LaravelLiberu\ControlPanelApi\Services\Groups;
 
-use LaravelLiberu\ControlPanelApi\Services\Sliberurs\NewUsers;
-use LaravelLiberu\ControlPanelApi\Services\Sliberurs\UserCount;
-use LaravelLiberu\ControlPanelApi\Services\Sliberurs\UserGroups;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\NewUsers;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\UserCount;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\UserGroups;
 use LaravelLiberu\ControlPanelCommon\Contracts\Group;
 use LaravelLiberu\ControlPanelCommon\Services\IdProvider;
 
