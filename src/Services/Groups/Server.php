@@ -1,15 +1,15 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Services\Groups;
+namespace LaravelLiberu\ControlPanelApi\Services\Groups;
 
-use LaravelEnso\ControlPanelApi\Services\Sensors\Disk;
-use LaravelEnso\ControlPanelApi\Services\Sensors\Load;
-use LaravelEnso\ControlPanelApi\Services\Sensors\LogSize;
-use LaravelEnso\ControlPanelApi\Services\Sensors\Memory;
-use LaravelEnso\ControlPanelApi\Services\Sensors\RequestMonitor;
-use LaravelEnso\ControlPanelApi\Services\Sensors\Time;
-use LaravelEnso\ControlPanelCommon\Contracts\Group;
-use LaravelEnso\ControlPanelCommon\Services\IdProvider;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\Disk;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\Load;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\LogSize;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\Memory;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\RequestMonitor;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\Time;
+use LaravelLiberu\ControlPanelCommon\Contracts\Group;
+use LaravelLiberu\ControlPanelCommon\Services\IdProvider;
 
 class Server extends IdProvider implements Group
 {

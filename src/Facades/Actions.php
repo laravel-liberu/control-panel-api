@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Facades;
+namespace LaravelLiberu\ControlPanelApi\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

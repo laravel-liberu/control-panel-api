@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Services\Groups;
+namespace LaravelLiberu\ControlPanelApi\Services\Groups;
 
-use LaravelEnso\ControlPanelApi\Services\Sensors\NewUsers;
-use LaravelEnso\ControlPanelApi\Services\Sensors\UserCount;
-use LaravelEnso\ControlPanelApi\Services\Sensors\UserGroups;
-use LaravelEnso\ControlPanelCommon\Contracts\Group;
-use LaravelEnso\ControlPanelCommon\Services\IdProvider;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\NewUsers;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\UserCount;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\UserGroups;
+use LaravelLiberu\ControlPanelCommon\Contracts\Group;
+use LaravelLiberu\ControlPanelCommon\Services\IdProvider;
 
 class Users extends IdProvider implements Group
 {

@@ -1,18 +1,18 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Database\Seeders;
+namespace LaravelLiberu\ControlPanelApi\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-use LaravelEnso\People\Models\Person;
-use LaravelEnso\Permissions\Models\Permission;
-use LaravelEnso\Roles\Models\Role;
-use LaravelEnso\UserGroups\Models\UserGroup;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\People\Models\Person;
+use LaravelLiberu\Permissions\Models\Permission;
+use LaravelLiberu\Roles\Models\Role;
+use LaravelLiberu\UserGroups\Models\UserGroup;
+use LaravelLiberu\Users\Models\User;
 
 class ApiUserSeeder extends Seeder
 {
-    private const email = 'monitoring@laravel-enso.com';
+    private const email = 'monitoring@liberu.co.uk';
     private UserGroup $group;
     private Person $person;
 

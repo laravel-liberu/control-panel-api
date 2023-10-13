@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Services\Actions;
+namespace LaravelLiberu\ControlPanelApi\Services\Actions;
 
 use Carbon\Carbon;
-use LaravelEnso\ControlPanelCommon\Contracts\Action;
-use LaravelEnso\ControlPanelCommon\Services\IdProvider;
+use LaravelLiberu\ControlPanelCommon\Contracts\Action;
+use LaravelLiberu\ControlPanelCommon\Services\IdProvider;
 
 class DownloadLog extends IdProvider implements Action
 {

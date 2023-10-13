@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Services\Sensors;
+namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
 
 use Illuminate\Support\Facades\Cache;
-use LaravelEnso\Helpers\Services\Decimals;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Helpers\Services\Decimals;
+use LaravelLiberu\Helpers\Services\Obj;
 
 class RequestMonitor extends Sensor
 {

@@ -33,14 +33,14 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\ControlPanelApi\\": "src/",
-            "LaravelEnso\\ControlPanelApi\\Database\\Seeders\\": "database/seeders/"
+            "LaravelLiberu\\ControlPanelApi\\": "src/",
+            "LaravelLiberu\\ControlPanelApi\\Database\\Seeders\\": "database/seeders/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelEnso\\ControlPanelApi\\AppServiceProvider"
+                "LaravelLiberu\\ControlPanelApi\\AppServiceProvider"
             ],
             "aliases": {}
         }

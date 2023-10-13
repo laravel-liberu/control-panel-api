@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Services\Sensors;
+namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
 
-use LaravelEnso\UserGroups\Models\UserGroup;
+use LaravelLiberu\UserGroups\Models\UserGroup;
 
 class UserGroups extends Sensor
 {

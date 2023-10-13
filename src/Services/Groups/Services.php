@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Services\Groups;
+namespace LaravelLiberu\ControlPanelApi\Services\Groups;
 
-use LaravelEnso\ControlPanelApi\Services\Sensors\Horizon;
-use LaravelEnso\ControlPanelApi\Services\Sensors\Scheduler;
-use LaravelEnso\ControlPanelApi\Services\Sensors\Web;
-use LaravelEnso\ControlPanelCommon\Contracts\Group;
-use LaravelEnso\ControlPanelCommon\Services\IdProvider;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\Horizon;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\Scheduler;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\Web;
+use LaravelLiberu\ControlPanelCommon\Contracts\Group;
+use LaravelLiberu\ControlPanelCommon\Services\IdProvider;
 
 class Services extends IdProvider implements Group
 {

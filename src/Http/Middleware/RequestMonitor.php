@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Http\Middleware;
+namespace LaravelLiberu\ControlPanelApi\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Cache;
-use LaravelEnso\ControlPanelApi\Services\Sensors\RequestMonitor as Sensor;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\RequestMonitor as Sensor;
 
 class RequestMonitor
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Services\Sensors;
+namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
 
-use LaravelEnso\ActionLogger\Models\ActionLog as Model;
+use LaravelLiberu\ActionLogger\Models\ActionLog as Model;
 
 class Requests extends Sensor
 {

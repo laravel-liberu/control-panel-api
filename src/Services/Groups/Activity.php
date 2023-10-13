@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Services\Groups;
+namespace LaravelLiberu\ControlPanelApi\Services\Groups;
 
-use LaravelEnso\ControlPanelApi\Services\Sensors\Logins;
-use LaravelEnso\ControlPanelApi\Services\Sensors\Requests;
-use LaravelEnso\ControlPanelApi\Services\Sensors\Sessions;
-use LaravelEnso\ControlPanelCommon\Contracts\Group;
-use LaravelEnso\ControlPanelCommon\Services\IdProvider;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\Logins;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\Requests;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\Sessions;
+use LaravelLiberu\ControlPanelCommon\Contracts\Group;
+use LaravelLiberu\ControlPanelCommon\Services\IdProvider;
 
 class Activity extends IdProvider implements Group
 {

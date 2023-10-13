@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Services\Helpers;
+namespace LaravelLiberu\ControlPanelApi\Services\Helpers;
 
-use LaravelEnso\Helpers\Services\Decimals;
+use LaravelLiberu\Helpers\Services\Decimals;
 
 class Cpu
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Commands;
+namespace LaravelLiberu\ControlPanelApi\Commands;
 
 use Carbon\Carbon;
 use Illuminate\Console\Command;

@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Http\Controllers;
+namespace LaravelLiberu\ControlPanelApi\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\ControlPanelApi\Facades\Actions;
+use LaravelLiberu\ControlPanelApi\Facades\Actions;
 
 class Action extends Controller
 {

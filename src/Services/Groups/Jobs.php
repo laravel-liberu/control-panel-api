@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Services\Groups;
+namespace LaravelLiberu\ControlPanelApi\Services\Groups;
 
-use LaravelEnso\ControlPanelApi\Services\Sensors\FailedJobs;
-use LaravelEnso\ControlPanelApi\Services\Sensors\PendingJobs;
-use LaravelEnso\ControlPanelCommon\Contracts\Group;
-use LaravelEnso\ControlPanelCommon\Services\IdProvider;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\FailedJobs;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\PendingJobs;
+use LaravelLiberu\ControlPanelCommon\Contracts\Group;
+use LaravelLiberu\ControlPanelCommon\Services\IdProvider;
 
 class Jobs extends IdProvider implements Group
 {

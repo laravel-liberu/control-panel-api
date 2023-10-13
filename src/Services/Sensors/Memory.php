@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Services\Sensors;
+namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Helpers\Services\Decimals;
-use LaravelEnso\Helpers\Services\DiskSize;
+use LaravelLiberu\Helpers\Services\Decimals;
+use LaravelLiberu\Helpers\Services\DiskSize;
 
 class Memory extends Sensor
 {

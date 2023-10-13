@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Services\Sensors;
+namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
 
-use LaravelEnso\ControlPanelApi\Services\Helpers\Cpu;
+use LaravelLiberu\ControlPanelApi\Services\Helpers\Cpu;
 
 class Load extends Sensor
 {

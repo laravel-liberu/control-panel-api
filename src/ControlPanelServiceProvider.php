@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi;
+namespace LaravelLiberu\ControlPanelApi;
 
 use Illuminate\Support\ServiceProvider;
-use LaravelEnso\ControlPanelApi\Facades\Actions;
-use LaravelEnso\ControlPanelApi\Facades\Statistics;
+use LaravelLiberu\ControlPanelApi\Facades\Actions;
+use LaravelLiberu\ControlPanelApi\Facades\Statistics;
 
 abstract class ControlPanelServiceProvider extends ServiceProvider
 {

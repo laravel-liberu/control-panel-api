@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Services\Sensors;
+namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
 
-use LaravelEnso\Core\Models\Login as Model;
+use LaravelLiberu\Core\Models\Login as Model;
 
 class Logins extends Sensor
 {

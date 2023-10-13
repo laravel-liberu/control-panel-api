@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Http\Controllers;
+namespace LaravelLiberu\ControlPanelApi\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\ControlPanelApi\Facades\Statistics as Stats;
-use LaravelEnso\ControlPanelCommon\Http\Resources\Group;
+use LaravelLiberu\ControlPanelApi\Facades\Statistics as Stats;
+use LaravelLiberu\ControlPanelCommon\Http\Resources\Group;
 
 class Statistics extends Controller
 {

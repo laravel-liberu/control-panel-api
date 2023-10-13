@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Http\Controllers;
+namespace LaravelLiberu\ControlPanelApi\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Response;

@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi;
+namespace LaravelLiberu\ControlPanelApi;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Support\ServiceProvider;
-use LaravelEnso\ControlPanelApi\Commands\Monitor;
-use LaravelEnso\ControlPanelApi\Http\Middleware\RequestMonitor;
-use LaravelEnso\ControlPanelApi\Services\Actions;
-use LaravelEnso\ControlPanelApi\Services\Statistics;
+use LaravelLiberu\ControlPanelApi\Commands\Monitor;
+use LaravelLiberu\ControlPanelApi\Http\Middleware\RequestMonitor;
+use LaravelLiberu\ControlPanelApi\Services\Actions;
+use LaravelLiberu\ControlPanelApi\Services\Statistics;
 
 class AppServiceProvider extends ServiceProvider
 {

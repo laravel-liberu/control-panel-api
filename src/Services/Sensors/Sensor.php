@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Services\Sensors;
+namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Query\Builder as DBBuilder;
-use LaravelEnso\ControlPanelCommon\Contracts\Sensor as Contract;
-use LaravelEnso\ControlPanelCommon\Services\IdProvider;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\ControlPanelCommon\Contracts\Sensor as Contract;
+use LaravelLiberu\ControlPanelCommon\Services\IdProvider;
+use LaravelLiberu\Helpers\Services\Obj;
 
 abstract class Sensor extends IdProvider implements Contract
 {

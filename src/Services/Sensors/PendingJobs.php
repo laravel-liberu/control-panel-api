@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Services\Sensors;
+namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
 
 use Illuminate\Support\Facades\App;
 use Laravel\Horizon\Contracts\JobRepository;

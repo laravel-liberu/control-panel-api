@@ -1,15 +1,15 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Services;
+namespace LaravelLiberu\ControlPanelApi\Services;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
-use LaravelEnso\ControlPanelApi\Services\Groups\Activity;
-use LaravelEnso\ControlPanelApi\Services\Groups\Jobs;
-use LaravelEnso\ControlPanelApi\Services\Groups\Server;
-use LaravelEnso\ControlPanelApi\Services\Groups\Services;
-use LaravelEnso\ControlPanelApi\Services\Groups\Users;
-use LaravelEnso\ControlPanelApi\Services\Groups\Versions;
+use LaravelLiberu\ControlPanelApi\Services\Groups\Activity;
+use LaravelLiberu\ControlPanelApi\Services\Groups\Jobs;
+use LaravelLiberu\ControlPanelApi\Services\Groups\Server;
+use LaravelLiberu\ControlPanelApi\Services\Groups\Services;
+use LaravelLiberu\ControlPanelApi\Services\Groups\Users;
+use LaravelLiberu\ControlPanelApi\Services\Groups\Versions;
 
 class Statistics
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Services\Sensors;
+namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
 
-use LaravelEnso\Helpers\Services\DiskSize;
+use LaravelLiberu\Helpers\Services\DiskSize;
 
 class Disk extends Sensor
 {

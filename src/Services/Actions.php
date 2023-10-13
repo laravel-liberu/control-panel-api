@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Services;
+namespace LaravelLiberu\ControlPanelApi\Services;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
-use LaravelEnso\ControlPanelApi\Services\Actions\ClearLog;
-use LaravelEnso\ControlPanelApi\Services\Actions\DownloadLog;
-use LaravelEnso\ControlPanelApi\Services\Actions\Maintenance;
-use LaravelEnso\ControlPanelCommon\Contracts\Action;
+use LaravelLiberu\ControlPanelApi\Services\Actions\ClearLog;
+use LaravelLiberu\ControlPanelApi\Services\Actions\DownloadLog;
+use LaravelLiberu\ControlPanelApi\Services\Actions\Maintenance;
+use LaravelLiberu\ControlPanelCommon\Contracts\Action;
 
 class Actions
 {

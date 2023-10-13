@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Services\Sensors;
+namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
 
-use LaravelEnso\Core\Services\Version as Service;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Core\Services\Version as Service;
+use LaravelLiberu\Helpers\Services\Obj;
 
 class Version extends Sensor
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Services\Sensors;
+namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
 
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Users\Models\User;
 
 class UserCount extends Sensor
 {

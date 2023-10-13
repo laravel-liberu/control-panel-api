@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Services\Actions;
+namespace LaravelLiberu\ControlPanelApi\Services\Actions;
 
-use LaravelEnso\ControlPanelCommon\Contracts\Action;
-use LaravelEnso\ControlPanelCommon\Services\IdProvider;
-use LaravelEnso\Logs\Services\ClearLog as Service;
+use LaravelLiberu\ControlPanelCommon\Contracts\Action;
+use LaravelLiberu\ControlPanelCommon\Services\IdProvider;
+use LaravelLiberu\Logs\Services\ClearLog as Service;
 
 class ClearLog extends IdProvider implements Action
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Services\Actions;
+namespace LaravelLiberu\ControlPanelApi\Services\Actions;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Artisan;
-use LaravelEnso\ControlPanelCommon\Contracts\Action;
-use LaravelEnso\ControlPanelCommon\Services\IdProvider;
+use LaravelLiberu\ControlPanelCommon\Contracts\Action;
+use LaravelLiberu\ControlPanelCommon\Services\IdProvider;
 
 class Maintenance extends IdProvider implements Action
 {

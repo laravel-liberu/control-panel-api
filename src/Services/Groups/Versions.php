@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelEnso\ControlPanelApi\Services\Groups;
+namespace LaravelLiberu\ControlPanelApi\Services\Groups;
 
-use LaravelEnso\ControlPanelApi\Services\Sensors\Database;
-use LaravelEnso\ControlPanelApi\Services\Sensors\OperatingSystem;
-use LaravelEnso\ControlPanelApi\Services\Sensors\PhpVersion;
-use LaravelEnso\ControlPanelApi\Services\Sensors\Version;
-use LaravelEnso\ControlPanelCommon\Contracts\Group;
-use LaravelEnso\ControlPanelCommon\Services\IdProvider;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\Database;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\OperatingSystem;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\PhpVersion;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\Version;
+use LaravelLiberu\ControlPanelCommon\Contracts\Group;
+use LaravelLiberu\ControlPanelCommon\Services\IdProvider;
 
 class Versions extends IdProvider implements Group
 {
