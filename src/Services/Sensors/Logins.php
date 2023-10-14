@@ -4,7 +4,7 @@ namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
 
 use LaravelLiberu\Core\Models\Login as Model;
 
-class Logins extends Sliberur
+class Logins extends Sensor
 {
     public function value(): mixed
     {

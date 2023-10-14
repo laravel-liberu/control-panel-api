@@ -5,7 +5,7 @@ namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 
-class Database extends Sliberur
+class Database extends Sensor
 {
     private string $version;
 

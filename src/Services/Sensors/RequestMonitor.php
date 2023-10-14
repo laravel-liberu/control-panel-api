@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Cache;
 use LaravelLiberu\Helpers\Services\Decimals;
 use LaravelLiberu\Helpers\Services\Obj;
 
-class RequestMonitor extends Sliberur
+class RequestMonitor extends Sensor
 {
     public const RequestMonitorKey = 'control-panel-api:request-monitor';
 

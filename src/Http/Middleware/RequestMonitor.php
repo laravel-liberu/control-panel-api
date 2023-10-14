@@ -4,7 +4,7 @@ namespace LaravelLiberu\ControlPanelApi\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Cache;
-use LaravelLiberu\ControlPanelApi\Services\Sensors\RequestMonitor as Sliberur;
+use LaravelLiberu\ControlPanelApi\Services\Sensors\RequestMonitor as Sensor;
 
 class RequestMonitor
 {
@@ -19,7 +19,7 @@ class RequestMonitor
     {
         $time = microtime(true) - LARAVEL_START;
 
-        $hits = Cache::get(Sliberur::RequestMonitorKey, []);
+        $hits = Cache::get(Sensor::RequestMonitorKey, []);
 
         if (count($hits) === self::RequestLimit) {
             array_shift($hits);
@@ -27,7 +27,7 @@ class RequestMonitor
 
         $hits[] = $time * 1000;
 
-        Cache::forever(Sliberur::RequestMonitorKey, $hits);
+        Cache::forever(Sensor::RequestMonitorKey, $hits);
 
         return $response;
     }

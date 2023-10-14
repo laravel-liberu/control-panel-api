@@ -6,7 +6,7 @@ use Illuminate\Support\Collection;
 use LaravelLiberu\Helpers\Services\Decimals;
 use LaravelLiberu\Helpers\Services\DiskSize;
 
-class Memory extends Sliberur
+class Memory extends Sensor
 {
     private Collection $memory;
 

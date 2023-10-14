@@ -4,7 +4,7 @@ namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
 
 use LaravelLiberu\UserGroups\Models\UserGroup;
 
-class UserGroups extends Sliberur
+class UserGroups extends Sensor
 {
     public function value(): mixed
     {

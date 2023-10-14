@@ -4,7 +4,7 @@ namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
 
 use Illuminate\Support\Facades\Cache;
 
-class Scheduler extends Sliberur
+class Scheduler extends Sensor
 {
     public function value(): mixed
     {

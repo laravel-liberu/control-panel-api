@@ -6,7 +6,7 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
 use Laravel\Horizon\Contracts\MasterSupervisorRepository;
 
-class Horizon extends Sliberur
+class Horizon extends Sensor
 {
     public function value(): mixed
     {

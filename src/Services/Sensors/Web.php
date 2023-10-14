@@ -2,7 +2,7 @@
 
 namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
 
-class Web extends Sliberur
+class Web extends Sensor
 {
     public function value(): mixed
     {

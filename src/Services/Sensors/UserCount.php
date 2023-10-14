@@ -4,7 +4,7 @@ namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
 
 use LaravelLiberu\Users\Models\User;
 
-class UserCount extends Sliberur
+class UserCount extends Sensor
 {
     public function value(): mixed
     {

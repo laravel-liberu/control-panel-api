@@ -4,7 +4,7 @@ namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
 
 use Illuminate\Support\Facades\DB;
 
-class FailedJobs extends Sliberur
+class FailedJobs extends Sensor
 {
     public function value(): mixed
     {

@@ -6,7 +6,7 @@ use Carbon\Carbon;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\DB;
 
-class Sessions extends Sliberur
+class Sessions extends Sensor
 {
     public function value(): mixed
     {

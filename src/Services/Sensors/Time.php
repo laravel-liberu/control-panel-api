@@ -4,7 +4,7 @@ namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
 
 use Carbon\Carbon;
 
-class Time extends Sliberur
+class Time extends Sensor
 {
     public function value(): mixed
     {

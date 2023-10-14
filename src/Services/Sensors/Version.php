@@ -5,7 +5,7 @@ namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
 use LaravelLiberu\Core\Services\Version as Service;
 use LaravelLiberu\Helpers\Services\Obj;
 
-class Version extends Sliberur
+class Version extends Sensor
 {
     private Service $version;
 

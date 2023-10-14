@@ -5,7 +5,7 @@ namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
 use Illuminate\Support\Facades\App;
 use Laravel\Horizon\Contracts\JobRepository;
 
-class PendingJobs extends Sliberur
+class PendingJobs extends Sensor
 {
     public function value(): mixed
     {

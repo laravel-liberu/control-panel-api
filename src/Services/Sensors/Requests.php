@@ -4,7 +4,7 @@ namespace LaravelLiberu\ControlPanelApi\Services\Sensors;
 
 use LaravelLiberu\ActionLogger\Models\ActionLog as Model;
 
-class Requests extends Sliberur
+class Requests extends Sensor
 {
     public function value(): mixed
     {
